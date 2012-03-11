@@ -29,9 +29,11 @@ $messages['en'] = array(
  * @author Fryed-peach
  * @author Nike
  * @author Purodha
+ * @author SPQRobin
  */
 $messages['qqq'] = array(
 	'useroptionstats-desc' => '{{desc}}',
+	'uos-choose-hidden' => '"hidden" refers to the options, as in "hidden preferences".',
 	'uos-unknown' => '{{Identical|Default}}',
 	'uos-other' => '{{Identical|Other}}',
 	'uos-title' => 'If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.',
@@ -276,7 +278,7 @@ $messages['es'] = array(
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Página especial]] para reportes en uso de opción de usuario de Mediawiki',
 	'uos-warn' => 'PHPlot no está instalado',
 	'uos-choose' => 'Escoger una de las siguientes opciones de usuario: $1',
-	'uos-choose-hidden' => 'Elija una de las siguientes opciones de usuario oculto: $1',
+	'uos-choose-hidden' => 'Elija una de las siguientes opciones ocultas de usuario: $1',
 	'uos-unknown' => '*Por defecto',
 	'uos-other' => '*Otro',
 	'uos-title' => 'Distribución de valores de opción de usuario $1',
