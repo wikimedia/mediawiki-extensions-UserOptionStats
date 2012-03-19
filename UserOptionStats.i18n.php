@@ -719,12 +719,14 @@ $messages['si'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'useroptionstats' => 'Štatistiky volieb používateľov',
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Špeciálna stránka]] na tvorbu správ používania volieb používateľov MediaWiki',
 	'uos-warn' => 'PHPlot nie je nainštalované!',
-	'uos-choose' => 'Vyberte jednu z nasledovných volieb používateľa: $1',
+	'uos-choose' => 'Vyberte jednu z nasledovných položiek používateľského nastavenia: $1',
+	'uos-choose-hidden' => 'Vyberte jednu z nasledovných skrytých položiek používateľského nastavenia: $1',
 	'uos-unknown' => '*Predvolené',
 	'uos-other' => '*Iné',
 	'uos-title' => 'Rozdelenie hodnôt používateľskej voľby $1',
