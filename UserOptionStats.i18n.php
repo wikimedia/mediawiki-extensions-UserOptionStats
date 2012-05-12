@@ -332,7 +332,7 @@ $messages['frp'] = array(
 	'useroptionstats' => 'Statistiques des chouèx a l’usanciér',
 	'uos-warn' => 'PHPlot est pas enstalâ !',
 	'uos-choose' => 'Chouèsésséd yon de cetos chouèx a l’usanciér : $1',
-	'uos-choose-hidden' => 'Chouèsésséd yon de cetos chouèx a l’utilisator envisiblos : $1',
+	'uos-choose-hidden' => 'Chouèsésséd yon de cetos chouèx a l’usanciér envisiblos : $1',
 	'uos-unknown' => '*Per dèfôt',
 	'uos-other' => '* Ôtres',
 	'uos-title' => 'Distribucion de les valors du chouèx a l’usanciér $1',
@@ -819,7 +819,7 @@ $messages['uk'] = array(
 	'uos-other' => '*Інші',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
