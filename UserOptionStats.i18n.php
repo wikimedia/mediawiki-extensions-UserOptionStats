@@ -466,8 +466,8 @@ $messages['ja'] = array(
 	'useroptionstats' => '利用者オプション統計',
 	'useroptionstats-desc' => 'MediaWiki の利用者オプションの設定状況をレポートする[[Special:UserOptionStats|特別ページ]]',
 	'uos-warn' => 'PHPlot がインストールされていません！',
-	'uos-choose' => '以下の利用者オプションから1つ選択：$1',
-	'uos-choose-hidden' => '以下の非表示の利用者オプションから1つ選択：$1',
+	'uos-choose' => '以下の利用者オプションから1つ選択: $1',
+	'uos-choose-hidden' => '以下の非表示の利用者オプションから1つ選択: $1',
 	'uos-unknown' => '*既定',
 	'uos-other' => '*その他',
 	'uos-title' => '利用者オプション $1 の設定値の分布',
@@ -536,7 +536,14 @@ $messages['mn'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'useroptionstats' => 'Statistik pilihan pengguna',
+	'useroptionstats-desc' => '[[Special:UserOptionStats|Laman khas]] untuk melaporkan penggunaan pilihan pengguna MediaWiki',
+	'uos-warn' => 'PHPlot belum terpasang!',
+	'uos-choose' => 'Pilih salah satu pilihan pengguna yang berikut: $1',
+	'uos-choose-hidden' => 'Pilih salah satu pilihan pengguna tersorok yang berikut: $1',
 	'uos-unknown' => '*Asali',
+	'uos-other' => '*Lain-lain',
+	'uos-title' => 'Taburan nilai pilihan pengguna $1',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
