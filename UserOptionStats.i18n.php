@@ -445,6 +445,7 @@ $messages['id'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -452,6 +453,7 @@ $messages['it'] = array(
 	'useroptionstats-desc' => "[[Special:UserOptionStats|Pagina speciale]] per la segnalazione dell'utilizzo delle opzioni degli utenti di MediaWiki",
 	'uos-warn' => 'PHPlot non è installato',
 	'uos-choose' => 'Scegliere una delle seguenti opzioni utente: $1',
+	'uos-choose-hidden' => 'Scegliere una delle seguenti opzioni utente nascoste: $1',
 	'uos-unknown' => '*Predefinito',
 	'uos-other' => '*Altro',
 	'uos-title' => "Distribuzione dei valori dell'opzione utente $1",
