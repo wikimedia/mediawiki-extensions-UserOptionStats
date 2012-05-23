@@ -44,6 +44,11 @@ $specialPageAliases['fa'] = array(
 	'UserOptionStats' => array( 'آمار_تنظیمات_کاربر' ),
 );
 
+/** Swiss German (Alemannisch) */
+$specialPageAliases['gsw'] = array(
+	'UserOptionStats' => array( 'Statistik_zu_Benutzeryystellige' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'UserOptionStats' => array( 'EstatistikOpsyonItilizatè' ),
