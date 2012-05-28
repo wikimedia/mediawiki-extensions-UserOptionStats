@@ -73,6 +73,7 @@ $messages['an'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
@@ -81,6 +82,7 @@ $messages['ar'] = array(
 	'useroptionstats-desc' => '[[Special:UserOptionStats|صفحة خاصة]] للإبلاغ عن استخدام خيارات مستخدمي ميدياويكي',
 	'uos-warn' => 'PHPlot غير مثبّت!',
 	'uos-choose' => 'اختر واحدة من خيارات المستخدم التالية: $1',
+	'uos-choose-hidden' => 'اختر واحدة من خيارات المستخدم المخفية التالية: $1',
 	'uos-unknown' => '*مبدئي',
 	'uos-other' => '*أخرى',
 	'uos-title' => 'توزيع القيم لخيار المستخدم $1',
