@@ -237,6 +237,13 @@ $messages['de-formal'] = array(
 	'uos-choose' => 'Bitte wählen Sie eine der folgenden Einstellungen aus: $1',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'useroptionstats' => 'İstatıstikê weçenegê karberan',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -483,6 +490,20 @@ $messages['ja'] = array(
 $messages['km'] = array(
 	'uos-unknown' => '*លំនាំ​ដើម​',
 	'uos-other' => '*ដទៃទៀត​',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'useroptionstats' => '사용자 옵션 통계',
+	'useroptionstats-desc' => '미디어위키 사용자 옵션 사용에 대한 보고를 위한 [[Special:UserOptionStats|특수 문서]]',
+	'uos-warn' => 'PHPlot이 설치되지 않았습니다!',
+	'uos-choose' => '다음 사용자 옵션 중 하나를 선택하세요: $1',
+	'uos-choose-hidden' => '다음 숨겨진 사용자 옵션 중 하나를 선택하세요: $1',
+	'uos-unknown' => '*기본값',
+	'uos-other' => '*기타',
+	'uos-title' => '사용자 옵션 $1의 값의 분포',
 );
 
 /** Colognian (Ripoarisch)
