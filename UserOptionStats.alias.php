@@ -24,7 +24,7 @@ $specialPageAliases['arz'] = array(
 	'UserOptionStats' => array( 'احصائيات_أوپشنز_اليوزر' ),
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $specialPageAliases['cs'] = array(
 	'UserOptionStats' => array( 'Statistika_uživatelského_nastavení' ),
 );
@@ -32,6 +32,11 @@ $specialPageAliases['cs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'UserOptionStats' => array( 'Statistik_zu_Benutzereinstellungen' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'UserOptionStats' => array( 'İstatistikêWeçenegdeKarberan' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -54,7 +59,7 @@ $specialPageAliases['ht'] = array(
 	'UserOptionStats' => array( 'EstatistikOpsyonItilizatè' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'UserOptionStats' => array( 'Statisticas_de_optiones_de_usator' ),
 );
@@ -69,6 +74,11 @@ $specialPageAliases['ja'] = array(
 	'UserOptionStats' => array( '利用者オプション統計' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'UserOptionStats' => array( '사용자옵션통계' ),
+);
+
 /** Colognian (Ripoarisch) */
 $specialPageAliases['ksh'] = array(
 	'UserOptionStats' => array( 'MetmaacherEnstellungsStatistik' ),
@@ -79,7 +89,7 @@ $specialPageAliases['lb'] = array(
 	'UserOptionStats' => array( 'Statistike_vun_de_Benotzerastellungen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'UserOptionStats' => array( 'СтатистикиЗаКорисничкиНагодувања' ),
 );
@@ -94,7 +104,7 @@ $specialPageAliases['mr'] = array(
 	'UserOptionStats' => array( 'सदस्यपर्यायसांख्यिकी' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'UserOptionStats' => array( 'Brukervalgstatistikk' ),
 );
@@ -109,12 +119,12 @@ $specialPageAliases['nl'] = array(
 	'UserOptionStats' => array( 'Gebruikersinstellingenstatistieken' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'UserOptionStats' => array( 'Estatísticas_da_opções_de_utilizador' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'UserOptionStats' => array( 'ŠtatistikyPoužívateľskýchVolieb' ),
 );
