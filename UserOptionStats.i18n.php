@@ -119,7 +119,7 @@ $messages['be-tarask'] = array(
 	'uos-title' => 'Разьмеркаваньне значэньняў наладаў удзельнікаў $1',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -134,7 +134,7 @@ $messages['bn'] = array(
 	'uos-other' => '*অন্য',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -147,7 +147,7 @@ $messages['br'] = array(
 	'uos-title' => 'Dasparzh talvoudennoù an dibarzh implijer $1',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -160,7 +160,7 @@ $messages['bs'] = array(
 	'uos-title' => 'Raspored vrijednosti korisničke opcije $1',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
@@ -177,7 +177,7 @@ $messages['ce'] = array(
 	'useroptionstats' => 'Декъашхоша гIирс латорна хилам',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Marmzok
  */
 $messages['ckb'] = array(
@@ -185,7 +185,7 @@ $messages['ckb'] = array(
 	'uos-other' => '*دیکە',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -198,7 +198,7 @@ $messages['cs'] = array(
 	'uos-title' => 'Rozdělení hodnot uživatelského nastavení „$1“',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Peter Alberti
  */
@@ -278,7 +278,7 @@ $messages['eo'] = array(
 	'uos-other' => '*Alia',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  */
@@ -293,7 +293,7 @@ $messages['es'] = array(
 	'uos-title' => 'Distribución de valores de opción de usuario $1',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -301,7 +301,7 @@ $messages['eu'] = array(
 	'uos-other' => '*Besterik',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Nike
  * @author Silvonen
@@ -317,7 +317,7 @@ $messages['fi'] = array(
 	'uos-title' => 'Asetuksen $1 arvojen jakauma',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author Urhixidur
@@ -333,7 +333,7 @@ $messages['fr'] = array(
 	'uos-title' => 'Distribution des valeurs de l’option utilisateur $1',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -413,7 +413,7 @@ $messages['hsb'] = array(
 	'uos-title' => 'Distribucija hódnotow wužiwarskeje opcije $1',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -426,7 +426,7 @@ $messages['hu'] = array(
 	'uos-title' => 'A(z) $1 felhasználói beállítás értékeinek eloszlása',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -453,7 +453,7 @@ $messages['id'] = array(
 	'uos-title' => 'Distribusi nilai pilihan pengguna $1',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
  */
@@ -535,7 +535,7 @@ $messages['lb'] = array(
 	'uos-title' => 'Verdeelung vun de Wäerter vun der Benotzerastellung $1',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -550,7 +550,7 @@ $messages['mk'] = array(
 $1',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -601,7 +601,7 @@ $messages['nl'] = array(
 	'uos-title' => 'Verdeling van de waarden van de gebruikersinstelling $1',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -614,7 +614,7 @@ $messages['nn'] = array(
 	'uos-title' => 'Spreiing i verdiar for brukarval $1',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -634,7 +634,7 @@ $messages['pdc'] = array(
 	'uos-other' => '*Annere',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
  * @author Sp5uhe
@@ -674,7 +674,7 @@ $messages['ps'] = array(
 	'uos-other' => '*بل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
@@ -690,7 +690,7 @@ $messages['pt'] = array(
 	'uos-title' => 'Distribuição de valores da opção de utilizador $1',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
@@ -705,7 +705,7 @@ $messages['pt-br'] = array(
 	'uos-title' => 'Distribuição de valores da opção de usuário $1',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  */
@@ -715,7 +715,7 @@ $messages['ro'] = array(
 	'uos-other' => '*Altul',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -750,7 +750,7 @@ $messages['si'] = array(
 	'uos-title' => '$1 පරිශිලක විකල්පයේ අගයන් ව්‍යාප්තිය',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -765,7 +765,7 @@ $messages['sk'] = array(
 	'uos-title' => 'Rozdelenie hodnôt používateľskej voľby $1',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -775,7 +775,7 @@ $messages['sr-ec'] = array(
 	'uos-other' => '*Друго',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -785,7 +785,7 @@ $messages['sr-el'] = array(
 	'uos-other' => '*Drugo',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Fluff
  * @author Per
  * @author WikiPhoenix
@@ -835,14 +835,14 @@ $messages['tr'] = array(
 	'uos-title' => 'Kullanıcı seçeneği $1 için değer dağılımı',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ерней
  */
 $messages['tt-cyrl'] = array(
 	'uos-unknown' => '*Килешү буенча',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
@@ -885,7 +885,7 @@ $messages['yi'] = array(
 	'uos-other' => '*אנדער',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author PhiLiP
  */
@@ -895,7 +895,7 @@ $messages['zh-hans'] = array(
 	'uos-other' => '*其他',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
