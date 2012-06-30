@@ -39,7 +39,7 @@ $specialPageAliases['diq'] = array(
 	'UserOptionStats' => array( 'İstatistikêWeçenegdeKarberan' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'UserOptionStats' => array( 'Statistika wužywarskich opcijow' ),
 );
