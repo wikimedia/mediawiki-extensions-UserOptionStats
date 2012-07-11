@@ -65,7 +65,7 @@ $messages['aln'] = array(
 	'uos-title' => 'Shpërndarja e vlerave të opsion user $1',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -102,7 +102,7 @@ $messages['bar'] = array(
 	'uos-choose' => 'Suach da ane vu de Eistellungen aus: $1',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -170,7 +170,7 @@ $messages['ca'] = array(
 	'uos-other' => '*Altres',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -244,7 +244,7 @@ $messages['diq'] = array(
 	'useroptionstats' => 'İstatıstikê weçenegê karberan',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -347,7 +347,7 @@ $messages['frp'] = array(
 	'uos-title' => 'Distribucion de les valors du chouèx a l’usanciér $1',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -399,7 +399,7 @@ $messages['he'] = array(
 	'uos-title' => 'הפצת הערכים של אפשרות המשתמש $1',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -571,7 +571,7 @@ $messages['ms'] = array(
 	'uos-title' => 'Taburan nilai pilihan pengguna $1',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Audun
  * @author Nghtwlkr
  */
@@ -730,7 +730,7 @@ $messages['ru'] = array(
 	'uos-title' => 'Распределение значений пользовательской настройки $1',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -852,7 +852,7 @@ $messages['uk'] = array(
 	'uos-other' => '*Інші',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
