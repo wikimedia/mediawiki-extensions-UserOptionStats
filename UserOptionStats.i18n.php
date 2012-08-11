@@ -83,7 +83,7 @@ $messages['ar'] = array(
 	'uos-warn' => 'PHPlot غير مثبّت!',
 	'uos-choose' => 'اختر واحدة من خيارات المستخدم التالية: $1',
 	'uos-choose-hidden' => 'اختر واحدة من خيارات المستخدم المخفية التالية: $1',
-	'uos-unknown' => '*مبدئي',
+	'uos-unknown' => '*افتراضي',
 	'uos-other' => '*أخرى',
 	'uos-title' => 'توزيع القيم لخيار المستخدم $1',
 );
@@ -483,6 +483,14 @@ $messages['ja'] = array(
 	'uos-unknown' => '*既定',
 	'uos-other' => '*その他',
 	'uos-title' => '利用者オプション $1 の設定値の分布',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'uos-unknown' => '*სტანდარტული',
+	'uos-other' => '*სხვა',
 );
 
 /** Khmer (ភាសាខ្មែរ)
