@@ -489,6 +489,7 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'useroptionstats' => 'მომხმარებლის პარამეტრების სტატისტიკა',
 	'uos-unknown' => '*სტანდარტული',
 	'uos-other' => '*სხვა',
 );
