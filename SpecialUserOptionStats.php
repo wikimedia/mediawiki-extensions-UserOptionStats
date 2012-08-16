@@ -11,7 +11,6 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 class SpecialUserOptionStats extends SpecialPage {
-
 	function __construct() {
 		parent::__construct( 'UserOptionStats' );
 	}
@@ -19,17 +18,17 @@ class SpecialUserOptionStats extends SpecialPage {
 	public $blacklist = array( 'nickname' );
 
 	public function execute( $par ) {
-		global $wgRequest, $wgOut, $wgLang, $wgAutoloadClasses;
+		global $wgAutoloadClasses;
 
 		$this->setHeaders();
 		$this->outputHeader();
 
-		if ( !class_exists( 'PHPlot' ) && !isset($wgAutoloadClasses['PHPlot'] ) ) {
-			$wgOut->addWikiMsg( 'uos-warn' );
+		if ( !class_exists( 'PHPlot' ) && !isset( $wgAutoloadClasses['PHPlot'] ) ) {
+			$this->getOutput()->addWikiMsg( 'uos-warn' );
 			return;
 		}
 
-		$par = trim(strtolower($par));
+		$par = trim( strtolower( $par ) );
 
 		foreach ( $this->blacklist as $b ) {
 			if ( $b === $par ) {
@@ -38,23 +37,25 @@ class SpecialUserOptionStats extends SpecialPage {
 			}
 		}
 
+		$lang = $this->getLanguage();
+
 		if ( !$par ) {
 			$opts = array();
 			$hiddenoptions = $this->getHiddenOptions();
 			$name = SpecialPage::getTitleFor( 'UserOptionStats' )->getPrefixedText();
 			foreach ( $this->getOptions() as $k ) {
-				if( in_array( $k, $hiddenoptions ) ) {
+				if ( in_array( $k, $hiddenoptions ) ) {
 					continue; # List hidden options separately (see below)
 				}
 				$opts[] = "[[$name/$k|$k]]";
 			}
-			$wgOut->addWikiMsg( 'uos-choose', $wgLang->commaList( $opts ) );
+			$this->getOutput()->addWikiMsg( 'uos-choose', $lang->commaList( $opts ) );
 			if ( count( $hiddenoptions ) > 0 ) {
 				$hiddenopts = array();
 				foreach ( $hiddenoptions as $hk ) {
 					$hiddenopts[] = "[[$name/$hk|$hk]]";
 				}
-				$wgOut->addWikiMsg( 'uos-choose-hidden', $wgLang->commaList( $hiddenopts ) );
+				$this->getOutput()->addWikiMsg( 'uos-choose-hidden', $lang->commaList( $hiddenopts ) );
 			}
 			return;
 		}
@@ -67,9 +68,9 @@ class SpecialUserOptionStats extends SpecialPage {
 		foreach ( $users as $u ) {
 			// New from row doesn't load user_properties, hence this is slow!
 			$obj = User::newFromRow( $u );
-			$opt = $obj->getOption( $optionName, wfMsg( 'uos-unknown' ) );
+			$opt = $obj->getOption( $optionName, $this->msg( 'uos-unknown' )->text() );
 
-			if ( !isset($data[$opt]) ) $data[$opt] = 0;
+			if ( !isset( $data[$opt] ) ) $data[$opt] = 0;
 			$data[$opt]++;
 		}
 
@@ -88,42 +89,44 @@ class SpecialUserOptionStats extends SpecialPage {
 			$labels[] = "$k ($d)";
 			$realdata[] = array( $k, $d );
 		}
-		if ( count($rest) ) {
+		if ( count( $rest ) ) {
 			$other = 0;
 			foreach ( $rest as $v ) $other += $v;
-			$labels[] = wfMsg( 'uos-other' ) . " ($other)";
+			$labels[] = $this->msg( 'uos-other' )->text() .
+				$this->msg( 'word-separator' )->text() .
+				$this->msg( 'parentheses', $other )->text();
 			$realdata[] = array( 'other', $other );
 		}
 
-		$title = $wgRequest->getText( 'pietitle', wfMsg( 'uos-title', $optionName ) );
-		$width = $wgRequest->getInt( 'width', 700 );
-		$height = $wgRequest->getInt( 'height', 500 );
+		$request = $this->getRequest();
+		$title = $request->getText( 'pietitle', $this->msg( 'uos-title', $optionName )->text() );
+		$width = $request->getInt( 'width', 700 );
+		$height = $request->getInt( 'height', 500 );
 		$width = max( 200, min( 1000, $width ) );
 		$height = max( 200, min( 1000, $height ) );
-		$shading = $wgRequest->getInt( 'shading', 10 );
+		$shading = $request->getInt( 'shading', 10 );
 		$height = max( 0, min( 1000, $height ) );
 
 		// Define the object
 		$plot = new PHPlot( $width, $height );
-		$plot->SetDataType('text-data-single');
+		$plot->SetDataType( 'text-data-single' );
 		$plot->setDataValues( $realdata );
-		$plot->SetPlotType('pie');
-		$plot->SetLegend($labels);
+		$plot->SetPlotType( 'pie' );
+		$plot->SetLegend( $labels );
 		$plot->SetShading( $shading );
-		$plot->SetLabelScalePosition(0.3);
+		$plot->SetLabelScalePosition( 0.3 );
 		$plot->SetTitle( $title );
 
 		// Better fonts
 		$realFunction = array( 'FCFontFinder', 'find' );
 		if ( is_callable( $realFunction ) ) {
-			$font = FCFontFinder::find( $wgLang->getCode() );
+			$font = FCFontFinder::find( $lang->getCode() );
 			if ( $font ) {
 				$plot->SetDefaultTTFont( $font );
 			}
 		}
 
-		global $wgOut;
-		$wgOut->disable();
+		$this->getOutput()->disable();
 		$plot->DrawGraph();
 	}
 
@@ -135,12 +138,16 @@ class SpecialUserOptionStats extends SpecialPage {
 
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
-		foreach ( $res as $r ) $opts[$r->value] = true;
+		foreach ( $res as $r ) {
+			$opts[$r->value] = true;
+		}
 
-		foreach ( $this->blacklist as $b ) unset( $opts[$b] );
+		foreach ( $this->blacklist as $b ) {
+			unset( $opts[$b] );
+		}
 
 		$opts = array_keys( $opts );
-		sort($opts);
+		sort( $opts );
 
 		return $opts;
 	}
