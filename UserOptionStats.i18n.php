@@ -102,7 +102,7 @@ $messages['bar'] = array(
 	'uos-choose' => 'Suach da ane vu de Eistellungen aus: $1',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -230,7 +230,7 @@ $messages['de'] = array(
 „$1“',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Purodha
  */
 $messages['de-formal'] = array(
@@ -581,7 +581,7 @@ $messages['ms'] = array(
 	'uos-title' => 'Taburan nilai pilihan pengguna $1',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Audun
  * @author Nghtwlkr
  */
@@ -611,7 +611,7 @@ $messages['nl'] = array(
 	'uos-title' => 'Verdeling van de waarden van de gebruikersinstelling $1',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -775,7 +775,7 @@ $messages['sk'] = array(
 	'uos-title' => 'Rozdelenie hodnôt používateľskej voľby $1',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -785,7 +785,7 @@ $messages['sr-ec'] = array(
 	'uos-other' => '*Друго',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -896,7 +896,7 @@ $messages['yi'] = array(
 	'uos-other' => '*אנדער',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author PhiLiP
  */
@@ -906,7 +906,7 @@ $messages['zh-hans'] = array(
 	'uos-other' => '*其他',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wrightbus
  */
