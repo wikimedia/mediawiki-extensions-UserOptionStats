@@ -76,7 +76,7 @@ $specialPageAliases['ja'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'UserOptionStats' => array( '사용자옵션통계' ),
+	'UserOptionStats' => array( '사용자설정통계', '사용자옵션통계' ),
 );
 
 /** Colognian (Ripoarisch) */
