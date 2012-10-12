@@ -243,6 +243,7 @@ $messages['de-formal'] = array(
 $messages['diq'] = array(
 	'useroptionstats' => 'İstatıstikê weçenegê karberan',
 	'uos-unknown' => '*Hesıbyaye',
+	'uos-other' => '*Zewmi',
 );
 
 /** Lower Sorbian (dolnoserbski)
