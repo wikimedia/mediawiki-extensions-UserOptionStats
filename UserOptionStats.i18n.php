@@ -239,11 +239,12 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'useroptionstats' => 'İstatıstikê weçenegê karberan',
 	'uos-unknown' => '*Hesıbyaye',
-	'uos-other' => '*Zewmi',
+	'uos-other' => '*Bin',
 );
 
 /** Lower Sorbian (dolnoserbski)
