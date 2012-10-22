@@ -304,6 +304,14 @@ $messages['eu'] = array(
 	'uos-other' => '*Besterik',
 );
 
+/** Persian (فارسی)
+ * @author پاناروما
+ */
+$messages['fa'] = array(
+	'uos-unknown' => '*پیش فرض',
+	'uos-other' => '*دیگر',
+);
+
 /** Finnish (suomi)
  * @author Cimon Avaro
  * @author Nike
