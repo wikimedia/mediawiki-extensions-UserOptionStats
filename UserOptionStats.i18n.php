@@ -193,6 +193,7 @@ $messages['cs'] = array(
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Speciální stránka]] pro tvorbu přehledů o využívaných volbách v nastavení MediaWiki',
 	'uos-warn' => 'Není nainstalován PHPlot!',
 	'uos-choose' => 'Vyberte jednu z následujících položek uživatelského nastavení: $1',
+	'uos-choose-hidden' => 'Zvolte jednu z následujících skrytých položek uživatelského nastavení: $1',
 	'uos-unknown' => '*Implicitní',
 	'uos-other' => '*Jiné',
 	'uos-title' => 'Rozdělení hodnot uživatelského nastavení „$1“',
