@@ -138,3 +138,8 @@ $specialPageAliases['sk'] = array(
 $specialPageAliases['tr'] = array(
 	'UserOptionStats' => array( 'KullanıcıSeçenekİstatistikleri' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'UserOptionStats' => array( '用户选项统计' ),
+);
