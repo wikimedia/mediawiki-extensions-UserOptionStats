@@ -821,6 +821,14 @@ $messages['sv'] = array(
 	'uos-title' => 'Fördelning av värden för användarinställningar $1',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'useroptionstats' => 'பயனர் தெரிவுப் புள்ளிவிபரங்கள்',
+	'uos-unknown' => '*இயல்புநிலை',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
