@@ -69,6 +69,11 @@ $specialPageAliases['id'] = array(
 	'UserOptionStats' => array( 'Statistik_opsi_pengguna', 'StatistikOpsiPengguna' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'UserOptionStats' => array( 'StatOpzionUtente' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'UserOptionStats' => array( '利用者オプション統計' ),
