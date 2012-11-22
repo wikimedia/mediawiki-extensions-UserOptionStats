@@ -134,6 +134,11 @@ $specialPageAliases['pt-br'] = array(
 	'UserOptionStats' => array( 'Estatísticas_de_opções_de_usuário' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'UserOptionStats' => array( 'StatOpzionUtente' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'UserOptionStats' => array( 'ŠtatistikyPoužívateľskýchVolieb' ),
