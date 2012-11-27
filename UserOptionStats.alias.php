@@ -114,7 +114,7 @@ $specialPageAliases['nb'] = array(
 	'UserOptionStats' => array( 'Brukervalgstatistikk' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'UserOptionStats' => array( 'Gebrukersinstellingenstaotistieken' ),
 );
