@@ -315,6 +315,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Cimon Avaro
+ * @author Nedergard
  * @author Nike
  * @author Silvonen
  * @author Str4nd
@@ -323,7 +324,8 @@ $messages['fi'] = array(
 	'useroptionstats' => 'Käyttäjien asetusten tilastot',
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Toimintosivu]] MediaWikin asetusvalintojen käyttötilastoille.',
 	'uos-warn' => 'PHPlotia ei ole asennettu!',
-	'uos-choose' => 'Valitse yksi seuraavista käyttäjän valinnoista: $1',
+	'uos-choose' => 'Valitse yksi seuraavista käyttäjäasetuksista: $1',
+	'uos-choose-hidden' => 'Valitse yksi seuraavista piilotetuista käyttäjäasetuksista: $1',
 	'uos-unknown' => '*Oletus',
 	'uos-other' => '*Muu',
 	'uos-title' => 'Asetuksen $1 arvojen jakauma',
