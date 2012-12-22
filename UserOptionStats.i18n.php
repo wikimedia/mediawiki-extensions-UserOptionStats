@@ -88,6 +88,13 @@ $messages['ar'] = array(
 	'uos-title' => 'توزيع القيم لخيار المستخدم $1',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'useroptionstats' => 'ܚܒܝܫܘܬ ܡܢܝܢܐ ܕܓܒܝܬ̈ܐ ܕܡܦܠܚܢܐ',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
  */
