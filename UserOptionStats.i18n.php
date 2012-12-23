@@ -882,12 +882,18 @@ $messages['tt-cyrl'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'useroptionstats' => 'Статистика користувацьких налаштувань',
+	'useroptionstats-desc' => '[[Special:UserOptionStats|Спеціальна стоірка]] для звітування про використання користувачами налаштувань MediaWiki',
+	'uos-warn' => 'PHPlot не встановлено!',
+	'uos-choose' => 'Оберіть одне із наступних користувацьких налаштувань: $1',
+	'uos-choose-hidden' => 'Оберіть одне із наступних прихованих користувацьких налаштувань: $1',
 	'uos-unknown' => '*За умовчанням',
 	'uos-other' => '*Інші',
+	'uos-title' => 'Розподіл значень користувацького налаштування $1',
 );
 
 /** Veps (vepsän kel’)
