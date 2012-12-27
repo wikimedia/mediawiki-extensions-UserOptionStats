@@ -153,3 +153,8 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'UserOptionStats' => array( '用户选项统计' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'UserOptionStats' => array( '用戶選項統計' ),
+);
