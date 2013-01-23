@@ -933,11 +933,17 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author PhiLiP
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'useroptionstats' => '用户选项统计',
+	'useroptionstats-desc' => '[[Special:UserOptionStats|特殊页面]]报告MediaWiki用户选项使用率',
 	'uos-warn' => '尚未安装PHPlot！',
+	'uos-choose' => '选择下列的用户选项之一：$1',
+	'uos-choose-hidden' => '选择下列隐藏的用户选项之一：$1',
 	'uos-unknown' => '*默认',
 	'uos-other' => '*其他',
+	'uos-title' => '用户选项 $1 的值的分布',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
