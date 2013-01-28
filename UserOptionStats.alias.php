@@ -114,7 +114,7 @@ $specialPageAliases['nb'] = array(
 	'UserOptionStats' => array( 'Brukervalgstatistikk' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'UserOptionStats' => array( 'Gebrukersinstellingenstaotistieken' ),
 );
