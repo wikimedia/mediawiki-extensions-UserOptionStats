@@ -109,7 +109,7 @@ $specialPageAliases['mr'] = array(
 	'UserOptionStats' => array( 'सदस्यपर्यायसांख्यिकी' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'UserOptionStats' => array( 'Brukervalgstatistikk' ),
 );
