@@ -30,9 +30,10 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author SPQRobin
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'useroptionstats-desc' => '{{desc}}',
+	'useroptionstats-desc' => '{{desc|name=User Option Stats|url=http://www.mediawiki.org/wiki/Extension:UserOptionStats}}',
 	'uos-choose-hidden' => '"hidden" refers to the options, as in "hidden preferences".',
 	'uos-unknown' => '{{Identical|Default}}',
 	'uos-other' => '{{Identical|Other}}',
