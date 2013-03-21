@@ -34,7 +34,18 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'useroptionstats-desc' => '{{desc|name=User Option Stats|url=http://www.mediawiki.org/wiki/Extension:UserOptionStats}}',
-	'uos-choose-hidden' => '"hidden" refers to the options, as in "hidden preferences".',
+	'uos-choose' => 'Used in [[Special:UserOptionStats]]. Parameters:
+* $1 - list of options (comma-separated, with links)
+See also:
+* {{msg-mw|Uos-choose-hidden}}',
+	'uos-choose-hidden' => 'Used in [[Special:UserOptionStats]].
+
+"hidden" refers to the options, as in "hidden preferences".
+
+Parameters:
+* $1 - list of hidden options (comma-separated, with links)
+See also:
+* {{msg-mw|Uos-choose}}',
 	'uos-unknown' => '{{Identical|Default}}',
 	'uos-other' => '{{Identical|Other}}',
 	'uos-title' => 'If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.',
