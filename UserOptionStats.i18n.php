@@ -33,6 +33,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
+	'useroptionstats' => '{{doc-special|UserOptionStats}}',
 	'useroptionstats-desc' => '{{desc|name=User Option Stats|url=http://www.mediawiki.org/wiki/Extension:UserOptionStats}}',
 	'uos-choose' => 'Used in [[Special:UserOptionStats]]. Parameters:
 * $1 - list of options (comma-separated, with links)
