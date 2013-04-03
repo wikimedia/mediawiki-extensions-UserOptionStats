@@ -35,6 +35,9 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'useroptionstats' => '{{doc-special|UserOptionStats}}',
 	'useroptionstats-desc' => '{{desc|name=User Option Stats|url=http://www.mediawiki.org/wiki/Extension:UserOptionStats}}',
+	'uos-warn' => 'Used as error message (not warning).
+
+<code>PHPlot</code> is a graph library to create various graphs from a PHP application. See http://www.phplot.com/',
 	'uos-choose' => 'Used in [[Special:UserOptionStats]]. Parameters:
 * $1 - list of options (comma-separated, with links)
 See also:
@@ -47,8 +50,14 @@ Parameters:
 * $1 - list of hidden options (comma-separated, with links)
 See also:
 * {{msg-mw|Uos-choose}}',
-	'uos-unknown' => '{{Identical|Default}}',
-	'uos-other' => '{{Identical|Other}}',
+	'uos-unknown' => 'See example: [[Special:UserOptionStats/ajaxsearch]]
+
+This message is followed by number of the users using the default settings.
+{{Identical|Default}}',
+	'uos-other' => 'See example: [[Special:UserOptionStats/translate-editlangs]].
+
+This message is followed by {{msg-mw|Word-separator}} and {{msg-mw|Parentheses}} (<code>$1</code> is number of users).
+{{Identical|Other}}',
 	'uos-title' => 'If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.',
 );
 
