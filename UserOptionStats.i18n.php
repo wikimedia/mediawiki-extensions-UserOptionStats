@@ -562,12 +562,12 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'useroptionstats' => 'Statistike övver der Metmaacher ier Enstellunge',
+	'useroptionstats' => 'Schtatistike övver der Metmaacher ier Enschtällonge',
 	'useroptionstats-desc' => 'En [[Special:UserOptionStats|Söndersigg]] för Bereeschte övver der Jebruch vun MediaWiki sing Ußwahle en de Metmaacher ier Enshtellunge.',
 	'uos-warn' => '<i lang="en">PHPlot</i> es nit enshtalleet!',
 	'uos-choose' => 'Söhk ein uß fun hee dä müjjelesche Ußwahle för de Metmaacher: $1',
 	'uos-choose-hidden' => 'Söhk ein uß fun hee dä müjjelesche vershtoche Ußwahle för de Metmaacher: $1',
-	'uos-unknown' => '*Shtandadt',
+	'uos-unknown' => '*Schtandatt',
 	'uos-other' => '*Ander',
 	'uos-title' => 'De Verdeijlung vun de Entshellunge vun de Metmaacher ier Ußwahl „$1“',
 );
@@ -765,6 +765,20 @@ $messages['ro'] = array(
 	'uos-warn' => 'PHPlot neinstalat!',
 	'uos-unknown' => '*Implicit',
 	'uos-other' => '*Altul',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'useroptionstats' => "Statisteche sus a le opziune de l'utende",
+	'useroptionstats-desc' => "[[Special:UserOptionStats|Pàgena speciale]] pe segnalà l'ause de le opziune de l'utende sus a MediaUicchi",
+	'uos-warn' => "PHPlot non g'è installate!",
+	'uos-choose' => "Scacchie une de le opziune de l'utende seguende: $1",
+	'uos-choose-hidden' => "Scacchie une de le opziune de l'utende scunnute ca seguone: $1",
+	'uos-unknown' => '*De base',
+	'uos-other' => '*Otre',
+	'uos-title' => 'Distribuzzione de le valore de le opzione utende $1',
 );
 
 /** Russian (русский)
