@@ -637,7 +637,7 @@ $messages['ms'] = array(
 	'uos-title' => 'Taburan nilai pilihan pengguna $1',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Audun
  * @author Nghtwlkr
  */
@@ -667,7 +667,7 @@ $messages['nl'] = array(
 	'uos-title' => 'Verdeling van de waarden van de gebruikersinstelling $1',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  */
 $messages['nn'] = array(
