@@ -997,11 +997,17 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
+	'useroptionstats' => '用戶選項統計',
+	'useroptionstats-desc' => '[[Special:UserOptionStats|特殊頁面]]報告MediaWiki用戶使用率',
 	'uos-warn' => '尚未安裝 PHPlot！',
+	'uos-choose' => '選擇一項下列用戶選項：$1',
+	'uos-choose-hidden' => '選擇一項下列的隱藏用戶選項：$1',
 	'uos-unknown' => '*預設',
 	'uos-other' => '*其他',
+	'uos-title' => '用戶選項$1的數值分布',
 );
