@@ -215,9 +215,11 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'useroptionstats' => 'Декъашхоша гIирс латорна хилам',
+	'uos-unknown' => '* Iад йитарца',
 );
 
 /** Sorani Kurdish (کوردی)
