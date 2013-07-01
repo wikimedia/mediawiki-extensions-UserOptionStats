@@ -36,7 +36,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'UserOptionStats' => array( 'İstatistikêWeçenegdeKarberan' ),
+	'UserOptionStats' => array( 'İstatistikéWeçenegdeKarberan' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
