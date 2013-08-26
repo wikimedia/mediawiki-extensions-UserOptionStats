@@ -58,7 +58,10 @@ This message is followed by number of the users using the default settings.
 
 This message is followed by {{msg-mw|Word-separator}} and {{msg-mw|Parentheses}} (<code>$1</code> is number of users).
 {{Identical|Other}}',
-	'uos-title' => 'If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.',
+	'uos-title' => 'If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.
+
+Parameters:
+* $1 - option name',
 );
 
 /** Afrikaans (Afrikaans)
