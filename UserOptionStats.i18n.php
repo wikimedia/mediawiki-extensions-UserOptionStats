@@ -762,6 +762,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
@@ -771,6 +772,7 @@ $messages['pt-br'] = array(
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Special page]] para reportar o uso de opção de usuário do MediaWiki',
 	'uos-warn' => 'PHPlot não está instalado!',
 	'uos-choose' => 'Escolha uma das seguintes opções de usuário: $1',
+	'uos-choose-hidden' => 'Escolha uma das seguintes opções de usuário ocultas: $1',
 	'uos-unknown' => '*Padrão',
 	'uos-other' => '*Outro',
 	'uos-title' => 'Distribuição de valores da opção de usuário $1',
