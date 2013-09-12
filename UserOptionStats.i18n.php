@@ -768,7 +768,7 @@ $messages['pt'] = array(
  * @author Heldergeovane
  */
 $messages['pt-br'] = array(
-	'useroptionstats' => 'Estatísticas de opções de utilizador',
+	'useroptionstats' => 'Estatísticas de opções de usuário',
 	'useroptionstats-desc' => '[[Special:UserOptionStats|Special page]] para reportar o uso de opção de usuário do MediaWiki',
 	'uos-warn' => 'PHPlot não está instalado!',
 	'uos-choose' => 'Escolha uma das seguintes opções de usuário: $1',
