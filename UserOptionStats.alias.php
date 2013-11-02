@@ -25,7 +25,7 @@ $specialPageAliases['arz'] = array(
 	'UserOptionStats' => array( 'احصائيات_أوپشنز_اليوزر' ),
 );
 
-/** Czech (česky) */
+/** Czech (čeština) */
 $specialPageAliases['cs'] = array(
 	'UserOptionStats' => array( 'Statistika_uživatelského_nastavení' ),
 );
