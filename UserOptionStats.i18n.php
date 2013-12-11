@@ -333,6 +333,7 @@ $messages['eo'] = array(
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Fitoschido
  */
 $messages['es'] = array(
 	'useroptionstats' => 'Estadísticas de opción de usuario',
@@ -340,7 +341,7 @@ $messages['es'] = array(
 	'uos-warn' => 'PHPlot no está instalado',
 	'uos-choose' => 'Escoger una de las siguientes opciones de usuario: $1',
 	'uos-choose-hidden' => 'Elija una de las siguientes opciones ocultas de usuario: $1',
-	'uos-unknown' => '*Por defecto',
+	'uos-unknown' => '*Predeterminado',
 	'uos-other' => '*Otro',
 	'uos-title' => 'Distribución de valores de opción de usuario $1',
 );
