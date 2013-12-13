@@ -45,9 +45,19 @@ $specialPageAliases['dsb'] = array(
 	'UserOptionStats' => array( 'Statistika wužywarskich opcijow' ),
 );
 
+/** Spanish (español) */
+$specialPageAliases['es'] = array(
+	'UserOptionStats' => array( 'Estadísticas_de_las_opciones_del_usuario', 'Estadísticas_de_las_opciones_de_la_usuaria', 'Estadísticas_de_opciones_de_usuario' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'UserOptionStats' => array( 'آمار_تنظیمات_کاربر' ),
+);
+
+/** Galician (galego) */
+$specialPageAliases['gl'] = array(
+	'UserOptionStats' => array( 'Estatísticas_das_opcións_do_usuario', 'Estatísticas_das_opcións_da_usuaria', 'Estadísticas_das_opcións_do_usuario', 'Estadísticas_das_opcións_da_usuaria' ),
 );
 
 /** Swiss German (Alemannisch) */
