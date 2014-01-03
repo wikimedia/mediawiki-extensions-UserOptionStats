@@ -223,6 +223,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'useroptionstats' => 'Декъашхоша гIирс латорна хилам',
 	'uos-unknown' => '* Iад йитарца',
+	'uos-other' => '* Кхин',
 );
 
 /** Sorani Kurdish (کوردی)
