@@ -566,6 +566,7 @@ $messages['km'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
@@ -574,7 +575,7 @@ $messages['ko'] = array(
 	'uos-warn' => 'PHPlot이 설치되지 않았습니다!',
 	'uos-choose' => '다음 사용자 옵션 중 하나를 선택하세요: $1',
 	'uos-choose-hidden' => '다음 숨겨진 사용자 옵션 중 하나를 선택하세요: $1',
-	'uos-unknown' => '*기본값',
+	'uos-unknown' => '*기본 값',
 	'uos-other' => '*기타',
 	'uos-title' => '사용자 옵션 $1의 값의 분포',
 );
