@@ -768,7 +768,6 @@ $messages['pt'] = array(
  * @author Cainamarques
  * @author Eduardo.mps
  * @author Helder.wiki
- * @author Heldergeovane
  */
 $messages['pt-br'] = array(
 	'useroptionstats' => 'Estatísticas de opções de usuário',
