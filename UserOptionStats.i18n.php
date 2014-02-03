@@ -356,11 +356,17 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author پاناروما
  */
 $messages['fa'] = array(
+	'useroptionstats' => 'آمارهای گزینهٔ کاربر',
+	'uos-warn' => 'پی‌اچ‌پی‌لات نصب نشده‌است!',
+	'uos-choose' => 'یکی از گزینه‌های کاربری زیر را انتخاب کنید: $1',
+	'uos-choose-hidden' => 'یکی از گزینه‌های کاربری پنهان شدهٔ‌ زیر را انتخاب کنید: $1',
 	'uos-unknown' => '*پیش فرض',
 	'uos-other' => '*دیگر',
+	'uos-title' => 'توزیع مقادیر گزینهٔ کاربر $1',
 );
 
 /** Finnish (suomi)
