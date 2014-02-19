@@ -160,6 +160,11 @@ $specialPageAliases['tr'] = array(
 	'UserOptionStats' => array( 'KullanıcıSeçenekİstatistikleri' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'UserOptionStats' => array( 'Thống_kê_tùy_chọn_cá_nhân', 'Thống_kê_tuỳ_chọn_cá_nhân' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'UserOptionStats' => array( '用户选项统计' ),

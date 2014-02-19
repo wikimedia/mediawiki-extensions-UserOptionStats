@@ -637,6 +637,13 @@ $messages['mn'] = array(
 	'uos-other' => '*Бусад',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'useroptionstats' => 'सदस्य विकल्प सांख्यिकी',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
