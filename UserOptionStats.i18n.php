@@ -293,7 +293,7 @@ $messages['de-formal'] = array(
  */
 $messages['diq'] = array(
 	'useroptionstats' => 'İstatıstikê weçenegê karberan',
-	'uos-unknown' => '*Hesıbyaye',
+	'uos-unknown' => '*Hesabiyaye',
 	'uos-other' => '*Bin',
 );
 
