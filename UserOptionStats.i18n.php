@@ -361,6 +361,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'useroptionstats' => 'آمارهای گزینهٔ کاربر',
+	'useroptionstats-desc' => '[[Special:UserOptionStats|صفحه ویژه]] برای گزارش در کاربرد گزینه کاربر مدیاویکی',
 	'uos-warn' => 'پی‌اچ‌پی‌لات نصب نشده‌است!',
 	'uos-choose' => 'یکی از گزینه‌های کاربری زیر را انتخاب کنید: $1',
 	'uos-choose-hidden' => 'یکی از گزینه‌های کاربری پنهان شدهٔ‌ زیر را انتخاب کنید: $1',
