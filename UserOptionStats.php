@@ -26,7 +26,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
 $wgExtensionCredits['specialpage'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'User Option Statistics',
-	'version'        => '1.3',
+	'version'        => '1.3.0',
 	'author'         => 'Niklas Laxström',
 	'descriptionmsg' => 'useroptionstats-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:UserOptionStats',
@@ -34,6 +34,7 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = __DIR__;
 $wgAutoloadClasses['SpecialUserOptionStats'] = "$dir/SpecialUserOptionStats.php";
+$wgMessagesDirs['UserOptionStats'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UserOptionStats'] = "$dir/UserOptionStats.i18n.php";
 $wgExtensionMessagesFiles['UserOptionStatsAlias'] = "$dir/UserOptionStats.alias.php";
 $wgSpecialPages['UserOptionStats'] = 'SpecialUserOptionStats';
