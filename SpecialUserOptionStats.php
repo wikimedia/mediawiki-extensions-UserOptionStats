@@ -3,27 +3,23 @@
 /**
  * Special page for generating pie charts of user options
  *
- * @file
  * @ingroup SpecialPages
  *
  * @author Niklas Laxström
- * @copyright Copyright © 2009, Niklas Laxström
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0+
  */
 class SpecialUserOptionStats extends SpecialPage {
 	function __construct() {
 		parent::__construct( 'UserOptionStats' );
 	}
 
-	public $blacklist = array( 'nickname' );
+	public $blacklist = array( 'nickname', 'watchlisttoken' );
 
 	public function execute( $par ) {
-		global $wgAutoloadClasses;
-
 		$this->setHeaders();
 		$this->outputHeader();
 
-		if ( !class_exists( 'PHPlot' ) && !isset( $wgAutoloadClasses['PHPlot'] ) ) {
+		if ( !class_exists( 'PHPlot' ) ) {
 			$this->getOutput()->addWikiMsg( 'uos-warn' );
 			return;
 		}

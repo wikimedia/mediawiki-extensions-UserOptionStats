@@ -20,20 +20,19 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  * @ingroup Extensions
  *
  * @author Niklas Laxström
- * @copyright Copyright © 2009, Niklas Laxström
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0+
  */
 
 $wgExtensionCredits['specialpage'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'User Option Statistics',
-	'version'        => '1.2',
+	'version'        => '1.3',
 	'author'         => 'Niklas Laxström',
 	'descriptionmsg' => 'useroptionstats-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:UserOptionStats',
 );
 
-$dir = dirname( __FILE__ );
+$dir = __DIR__;
 $wgAutoloadClasses['SpecialUserOptionStats'] = "$dir/SpecialUserOptionStats.php";
 $wgExtensionMessagesFiles['UserOptionStats'] = "$dir/UserOptionStats.i18n.php";
 $wgExtensionMessagesFiles['UserOptionStatsAlias'] = "$dir/UserOptionStats.alias.php";
