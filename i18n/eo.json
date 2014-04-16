@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "uos-unknown": "*Defaŭlta",
-    "uos-other": "*Alia"
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"uos-unknown": "*Defaŭlta",
+	"uos-other": "*Alia"
 }

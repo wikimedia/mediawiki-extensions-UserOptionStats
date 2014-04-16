@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "uos-choose": "Bitte wählen Sie eine der folgenden Einstellungen aus: $1"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"uos-choose": "Bitte wählen Sie eine der folgenden Einstellungen aus: $1"
 }

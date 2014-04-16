@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "David1010"
-        ]
-    },
-    "useroptionstats": "მომხმარებლის პარამეტრების სტატისტიკა",
-    "uos-unknown": "*სტანდარტული",
-    "uos-other": "*სხვა"
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"useroptionstats": "მომხმარებლის პარამეტრების სტატისტიკა",
+	"uos-unknown": "*სტანდარტული",
+	"uos-other": "*სხვა"
 }

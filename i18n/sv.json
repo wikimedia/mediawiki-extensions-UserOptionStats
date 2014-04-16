@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fluff",
-            "Per",
-            "WikiPhoenix"
-        ]
-    },
-    "useroptionstats": "Statistik för användarinställningar",
-    "useroptionstats-desc": "[[Special:UserOptionStats|Specialsida]] för rapportering om användandet av MediaWiki:s användarinställningar",
-    "uos-warn": "PHPlot är inte installerat!",
-    "uos-choose": "Välj en av följande inställningar: $1",
-    "uos-unknown": "*Standard",
-    "uos-other": "*Annat",
-    "uos-title": "Fördelning av värden för användarinställningar $1"
+	"@metadata": {
+		"authors": [
+			"Fluff",
+			"Per",
+			"WikiPhoenix"
+		]
+	},
+	"useroptionstats": "Statistik för användarinställningar",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Specialsida]] för rapportering om användandet av MediaWiki:s användarinställningar",
+	"uos-warn": "PHPlot är inte installerat!",
+	"uos-choose": "Välj en av följande inställningar: $1",
+	"uos-unknown": "*Standard",
+	"uos-other": "*Annat",
+	"uos-title": "Fördelning av värden för användarinställningar $1"
 }
