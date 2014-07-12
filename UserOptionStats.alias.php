@@ -65,6 +65,11 @@ $specialPageAliases['gsw'] = array(
 	'UserOptionStats' => array( 'Statistik_zu_Benutzeryystellige' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'UserOptionStats' => array( 'סטטיסטיקות_של_העדפות' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'UserOptionStats' => array( 'EstatistikOpsyonItilizatè' ),
