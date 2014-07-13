@@ -3,15 +3,16 @@
 		"authors": [
 			"Justincheng12345",
 			"Mark85296341",
-			"Wrightbus"
+			"Wrightbus",
+			"Cwlin0416"
 		]
 	},
-	"useroptionstats": "用戶選項統計",
-	"useroptionstats-desc": "[[Special:UserOptionStats|特殊頁面]]報告MediaWiki用戶使用率",
-	"uos-warn": "尚未安裝 PHPlot！",
-	"uos-choose": "選擇一項下列用戶選項：$1",
-	"uos-choose-hidden": "選擇一項下列的隱藏用戶選項：$1",
+	"useroptionstats": "使用者選項統計資訊",
+	"useroptionstats-desc": "MediaWiki 使用者選項使用率的報表 [[Special:UserOptionStats|特殊頁面]]",
+	"uos-warn": "未安裝 PHPlot！",
+	"uos-choose": "請選擇下列一個使用者選項：$1",
+	"uos-choose-hidden": "請選擇下列一個隱藏的使用者選項：$1",
 	"uos-unknown": "*預設",
 	"uos-other": "*其他",
-	"uos-title": "用戶選項$1的數值分布"
+	"uos-title": "使用者選項 $1 的數據分佈"
 }
