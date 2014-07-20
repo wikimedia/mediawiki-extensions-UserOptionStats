@@ -177,5 +177,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'UserOptionStats' => array( '用戶選項統計' ),
+	'UserOptionStats' => array( '使用者選項統計' ),
 );
