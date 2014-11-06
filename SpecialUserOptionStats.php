@@ -58,17 +58,22 @@ class SpecialUserOptionStats extends SpecialPage {
 
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$users = $dbr->select( 'user', '*', '', __METHOD__ );
-		$data = array();
-		$optionName = $par;
-		foreach ( $users as $u ) {
-			// New from row doesn't load user_properties, hence this is slow!
-			$obj = User::newFromRow( $u );
-			$opt = $obj->getOption( $optionName, $this->msg( 'uos-unknown' )->text() );
+		$total = $dbr->selectField( 'user', 'count(*)', '', __METHOD__ );
 
-			if ( !isset( $data[$opt] ) ) $data[$opt] = 0;
-			$data[$opt]++;
+		$data = array();
+		$props = $dbr->select(
+			'user_properties',
+			array( 'up_value', 'count(up_value) as c' ),
+			array( 'up_property' => $par ),
+			__METHOD__,
+			array( 'GROUP BY' => 'up_value' )
+		);
+
+		foreach ( $props as $row ) {
+			$total -= $row->c;
+			$data[$row->up_value] = $row->c;
 		}
+		$data[$this->msg( 'uos-unknown' )->text()] = $total;
 
 		$realdata = array();
 		$labels = array();
@@ -95,7 +100,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		}
 
 		$request = $this->getRequest();
-		$title = $request->getText( 'pietitle', $this->msg( 'uos-title', $optionName )->text() );
+		$title = $request->getText( 'pietitle', $this->msg( 'uos-title', $par )->text() );
 		$width = $request->getInt( 'width', 700 );
 		$height = $request->getInt( 'height', 500 );
 		$width = max( 200, min( 1000, $width ) );
