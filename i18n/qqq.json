@@ -6,11 +6,12 @@
 			"Nike",
 			"Purodha",
 			"SPQRobin",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"useroptionstats": "{{doc-special|UserOptionStats}}",
-	"useroptionstats-desc": "{{desc|name=User Option Stats|url=http://www.mediawiki.org/wiki/Extension:UserOptionStats}}",
+	"useroptionstats-desc": "{{desc|name=User Option Stats|url=https://www.mediawiki.org/wiki/Extension:UserOptionStats}}",
 	"uos-warn": "Used as error message (not warning).\n\n<code>PHPlot</code> is a graph library to create various graphs from a PHP application. See http://www.phplot.com/",
 	"uos-choose": "Used in [[Special:UserOptionStats]]. Parameters:\n* $1 - list of options (comma-separated, with links)\nSee also:\n* {{msg-mw|Uos-choose-hidden}}",
 	"uos-choose-hidden": "Used in [[Special:UserOptionStats]].\n\n\"hidden\" refers to the options, as in \"hidden preferences\".\n\nParameters:\n* $1 - list of hidden options (comma-separated, with links)\nSee also:\n* {{msg-mw|Uos-choose}}",
