@@ -80,7 +80,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		// So use the last free color for "other" which includes the rest
 		$max = 7;
 		$rest = array_slice( $data, $max );
-		$data = array_slice( $data, 0, $max );
+		$data = array_slice( $data, 0, $max, true );
 		foreach ( $data as $k => $d ) {
 			$labels[] = "$k ($d)";
 			$realdata[] = array( $k, $d );
