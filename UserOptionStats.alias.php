@@ -25,6 +25,11 @@ $specialPageAliases['arz'] = array(
 	'UserOptionStats' => array( 'احصائيات_أوپشنز_اليوزر' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'UserOptionStats' => array( 'کارمرزوکی_تنزیماتانی_سرجم' ),
+);
+
 /** Czech (čeština) */
 $specialPageAliases['cs'] = array(
 	'UserOptionStats' => array( 'Statistika_uživatelského_nastavení' ),
