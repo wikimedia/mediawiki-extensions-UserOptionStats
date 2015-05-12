@@ -20,7 +20,7 @@ $specialPageAliases['ar'] = array(
 	'UserOptionStats' => array( 'إحصاءات_خيارات_المستخدم' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'UserOptionStats' => array( 'احصائيات_أوپشنز_اليوزر' ),
 );
