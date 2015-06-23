@@ -160,4 +160,8 @@ class SpecialUserOptionStats extends SpecialPage {
 		}
 		return array();
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

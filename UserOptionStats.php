@@ -38,4 +38,3 @@ $wgMessagesDirs['UserOptionStats'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UserOptionStats'] = "$dir/UserOptionStats.i18n.php";
 $wgExtensionMessagesFiles['UserOptionStatsAlias'] = "$dir/UserOptionStats.alias.php";
 $wgSpecialPages['UserOptionStats'] = 'SpecialUserOptionStats';
-$wgSpecialPageGroups['UserOptionStats'] = 'wiki';
