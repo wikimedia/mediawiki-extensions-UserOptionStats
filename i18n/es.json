@@ -7,12 +7,12 @@
 			"Macofe"
 		]
 	},
-	"useroptionstats": "Estadísticas de opción de usuario",
-	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportes en uso de opción de usuario de Mediawiki",
+	"useroptionstats": "Estadísticas de opciones de usuario",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportes sobre uso de opciones de usuario de Mediawiki",
 	"uos-warn": "PHPlot no está instalado",
-	"uos-choose": "Escoger una de las siguientes opciones de usuario: $1",
+	"uos-choose": "Elige una de las siguientes opciones de usuario: $1",
 	"uos-choose-hidden": "Elige una de las siguientes opciones ocultas de usuario: $1",
 	"uos-unknown": "*Predeterminado",
 	"uos-other": "*Otro",
-	"uos-title": "Distribución de valores de opción de usuario $1"
+	"uos-title": "Distribución de valores de la opción de usuario $1"
 }
