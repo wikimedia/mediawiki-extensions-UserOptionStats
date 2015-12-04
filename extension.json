@@ -1,0 +1,23 @@
+{
+	"name": "User Option Statistics",
+	"version": "2.0.0",
+	"author": "Niklas Laxström",
+	"url": "https://www.mediawiki.org/wiki/Extension:UserOptionStats",
+	"descriptionmsg": "useroptionstats-desc",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"SpecialUserOptionStats": "SpecialUserOptionStats.php"
+	},
+	"ExtensionMessagesFiles": {
+		"UserOptionStatsAlias": "UserOptionStats.alias.php"
+	},
+	"MessagesDirs": {
+		"UserOptionStats": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"UserOptionStats": "SpecialUserOptionStats"
+	},
+	"manifest_version": 1
+}

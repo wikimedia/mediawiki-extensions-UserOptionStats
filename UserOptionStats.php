@@ -15,23 +15,17 @@
  * - shading 'Shading of the pie' 0..1000
  *
  * @file
- * @ingroup Extensions
- *
  * @author Niklas Laxström
  * @license GPL-2.0+
  */
 
-$wgExtensionCredits['specialpage'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'User Option Statistics',
-	'version'        => '1.3.1',
-	'author'         => 'Niklas Laxström',
-	'descriptionmsg' => 'useroptionstats-desc',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:UserOptionStats',
-);
-
-$dir = __DIR__;
-$wgAutoloadClasses['SpecialUserOptionStats'] = "$dir/SpecialUserOptionStats.php";
-$wgMessagesDirs['UserOptionStats'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['UserOptionStatsAlias'] = "$dir/UserOptionStats.alias.php";
-$wgSpecialPages['UserOptionStats'] = 'SpecialUserOptionStats';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'UserOptionStats' );
+	/*wfWarn(
+		'Deprecated PHP entry point used for UserOptionStats extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);*/
+	return;
+} else {
+	die( 'This version of the UserOptionStats extension requires MediaWiki 1.25+' );
+}
