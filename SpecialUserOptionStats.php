@@ -13,7 +13,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		parent::__construct( 'UserOptionStats' );
 	}
 
-	public $blacklist = array( 'nickname', 'watchlisttoken' );
+	public $blacklist = [ 'nickname', 'watchlisttoken' ];
 
 	public function execute( $par ) {
 		$this->setHeaders();
@@ -36,7 +36,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		$lang = $this->getLanguage();
 
 		if ( !$par ) {
-			$opts = array();
+			$opts = [];
 			$hiddenoptions = $this->getHiddenOptions();
 			$name = SpecialPage::getTitleFor( 'UserOptionStats' )->getPrefixedText();
 			foreach ( $this->getOptions() as $k ) {
@@ -47,7 +47,7 @@ class SpecialUserOptionStats extends SpecialPage {
 			}
 			$this->getOutput()->addWikiMsg( 'uos-choose', $lang->commaList( $opts ) );
 			if ( count( $hiddenoptions ) > 0 ) {
-				$hiddenopts = array();
+				$hiddenopts = [];
 				foreach ( $hiddenoptions as $hk ) {
 					$hiddenopts[] = "[[$name/$hk|$hk]]";
 				}
@@ -60,13 +60,13 @@ class SpecialUserOptionStats extends SpecialPage {
 
 		$total = $dbr->selectField( 'user', 'count(*)', '', __METHOD__ );
 
-		$data = array();
+		$data = [];
 		$props = $dbr->select(
 			'user_properties',
-			array( 'up_value', 'count(up_value) as c' ),
-			array( 'up_property' => $par ),
+			[ 'up_value', 'count(up_value) as c' ],
+			[ 'up_property' => $par ],
 			__METHOD__,
-			array( 'GROUP BY' => 'up_value' )
+			[ 'GROUP BY' => 'up_value' ]
 		);
 
 		foreach ( $props as $row ) {
@@ -75,8 +75,8 @@ class SpecialUserOptionStats extends SpecialPage {
 		}
 		$data[$this->msg( 'uos-unknown' )->text()] = $total;
 
-		$realdata = array();
-		$labels = array();
+		$realdata = [];
+		$labels = [];
 
 		// Most popular first, barring other
 		arsort( $data );
@@ -88,15 +88,16 @@ class SpecialUserOptionStats extends SpecialPage {
 		$data = array_slice( $data, 0, $max, true );
 		foreach ( $data as $k => $d ) {
 			$labels[] = "$k ($d)";
-			$realdata[] = array( $k, $d );
+			$realdata[] = [ $k, $d ];
 		}
 		if ( count( $rest ) ) {
 			$other = 0;
-			foreach ( $rest as $v ) $other += $v;
+			foreach ( $rest as $v ) { $other += $v;
+	  }
 			$labels[] = $this->msg( 'uos-other' )->text() .
 				$this->msg( 'word-separator' )->text() .
 				$this->msg( 'parentheses', $other )->text();
-			$realdata[] = array( 'other', $other );
+			$realdata[] = [ 'other', $other ];
 		}
 
 		$request = $this->getRequest();
@@ -119,7 +120,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		$plot->SetTitle( $title );
 
 		// Better fonts
-		$realFunction = array( 'FCFontFinder', 'find' );
+		$realFunction = [ 'FCFontFinder', 'find' ];
 		if ( is_callable( $realFunction ) ) {
 			$font = FCFontFinder::find( $lang->getCode() );
 			if ( $font ) {
@@ -134,8 +135,9 @@ class SpecialUserOptionStats extends SpecialPage {
 	public function getOptions() {
 		global $wgDefaultUserOptions;
 
-		$opts = array();
-		foreach ( $wgDefaultUserOptions as $k => $v ) $opts[$k] = true;
+		$opts = [];
+		foreach ( $wgDefaultUserOptions as $k => $v ) { $opts[$k] = true;
+	 }
 
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
@@ -158,7 +160,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		if ( isset( $wgHiddenPrefs ) && is_array( $wgHiddenPrefs ) ) {
 			return $wgHiddenPrefs;
 		}
-		return array();
+		return [];
 	}
 
 	protected function getGroupName() {
