@@ -9,7 +9,7 @@
  * @license GPL-2.0+
  */
 class SpecialUserOptionStats extends SpecialPage {
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'UserOptionStats' );
 	}
 
