@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Audun",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"useroptionstats": "Statistikk for brukervalg",
 	"useroptionstats-desc": "[[Special:UserOptionStats|Spesialside]] for rapporter om bruk av MediaWiki brukervalg",
 	"uos-warn": "PHPlot er ikke installert!",
 	"uos-choose": "Velg et av de følgende brukervalgene: $1",
+	"uos-choose-hidden": "Velg én av følgende skjulte brukervalg: $1",
 	"uos-unknown": "*Standard",
 	"uos-other": "*Annen",
 	"uos-title": "Fordeling av verdier for brukervalg $1"
