@@ -56,7 +56,7 @@ class SpecialUserOptionStats extends SpecialPage {
 			return;
 		}
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$total = $dbr->selectField( 'user', 'count(*)', '', __METHOD__ );
 
@@ -139,7 +139,7 @@ class SpecialUserOptionStats extends SpecialPage {
 		foreach ( $wgDefaultUserOptions as $k => $v ) { $opts[$k] = true;
 	 }
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
 		foreach ( $res as $r ) {
 			$opts[$r->value] = true;
