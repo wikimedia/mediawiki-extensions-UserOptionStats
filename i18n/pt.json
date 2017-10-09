@@ -6,8 +6,8 @@
 			"Malafaya"
 		]
 	},
-	"useroptionstats": "Estatísticas das opções dos utilizadores",
-	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportar a utilização das opções dos utilizadores do MediaWiki",
+	"useroptionstats": "Estatísticas das opções de utilizador",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportar a utilização das opções de utilizador do MediaWiki",
 	"uos-warn": "PHPlot não está instalado!",
 	"uos-choose": "Escolha uma das seguintes opções de utilizador: $1",
 	"uos-choose-hidden": "Escolha uma das seguintes opções de utilizador ocultas: $1",
