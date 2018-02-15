@@ -6,7 +6,7 @@
  * @ingroup SpecialPages
  *
  * @author Niklas Laxström
- * @license GPL-2.0+
+ * @license GPL-2.0-or-later
  */
 class SpecialUserOptionStats extends SpecialPage {
 	public function __construct() {
