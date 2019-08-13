@@ -4,11 +4,12 @@
 			"Justincheng12345",
 			"Mark85296341",
 			"Wrightbus",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
 	"useroptionstats": "使用者選項統計資訊",
-	"useroptionstats-desc": "MediaWiki 使用者選項使用率的報表 [[Special:UserOptionStats|特殊頁面]]",
+	"useroptionstats-desc": "MediaWiki 使用者選項使用率的報表[[Special:UserOptionStats|特殊頁面]]",
 	"uos-warn": "未安裝 PHPlot！",
 	"uos-choose": "請選擇下列一個使用者選項：$1",
 	"uos-choose-hidden": "請選擇下列一個隱藏的使用者選項：$1",
