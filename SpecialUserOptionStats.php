@@ -92,8 +92,9 @@ class SpecialUserOptionStats extends SpecialPage {
 		}
 		if ( count( $rest ) ) {
 			$other = 0;
-			foreach ( $rest as $v ) { $other += $v;
-	  }
+			foreach ( $rest as $v ) {
+				$other += $v;
+			}
 			$labels[] = $this->msg( 'uos-other' )->text() .
 				$this->msg( 'word-separator' )->text() .
 				$this->msg( 'parentheses', $other )->text();
@@ -136,8 +137,9 @@ class SpecialUserOptionStats extends SpecialPage {
 		global $wgDefaultUserOptions;
 
 		$opts = [];
-		foreach ( $wgDefaultUserOptions as $k => $v ) { $opts[$k] = true;
-	 }
+		foreach ( $wgDefaultUserOptions as $k => $v ) {
+			$opts[$k] = true;
+		}
 
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
