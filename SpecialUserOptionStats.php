@@ -121,12 +121,9 @@ class SpecialUserOptionStats extends SpecialPage {
 		$plot->SetTitle( $title );
 
 		// Better fonts
-		$realFunction = [ 'FCFontFinder', 'findFile' ];
-		if ( is_callable( $realFunction ) ) {
-			$font = FCFontFinder::findFile( $lang->getCode() );
-			if ( $font ) {
-				$plot->SetDefaultTTFont( $font );
-			}
+		$font = FCFontFinder::findFile( $lang->getCode() );
+		if ( $font ) {
+			$plot->SetDefaultTTFont( $font );
 		}
 
 		$this->getOutput()->disable();
