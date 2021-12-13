@@ -4,7 +4,8 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Zedlik"
+			"Zedlik",
+			"Renessaince"
 		]
 	},
 	"useroptionstats": "Статыстыка наладаў ўдзельнікаў",
@@ -12,7 +13,7 @@
 	"uos-warn": "PHPlot не ўсталяваны!",
 	"uos-choose": "Выберыце адну з наступных наладаў удзельніка: $1",
 	"uos-choose-hidden": "Выберыце адну з наступных схаваных наладаў удзельніка: $1",
-	"uos-unknown": "*Па змоўчваньні",
+	"uos-unknown": "*Дапомна",
 	"uos-other": "*Іншая",
 	"uos-title": "Разьмеркаваньне значэньняў наладаў удзельнікаў $1"
 }
