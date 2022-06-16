@@ -5,7 +5,7 @@
 		]
 	},
 	"useroptionstats": "Statistieke oor gebruikersinstellings",
-	"useroptionstats-desc": "[[Special:UserOptionStats|Spesiale bladsy]] vir rapportering van Mediawiki gebruikersinstellings",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Spesiale bladsy]] vir rapportering van MediaWiki gebruikersinstellings",
 	"uos-warn": "PHPlot is nie geïnstalleer nie!",
 	"uos-choose": "Kies een van die volgende gebruikersinstellings: $1",
 	"uos-unknown": "*Standaardinstelling",
