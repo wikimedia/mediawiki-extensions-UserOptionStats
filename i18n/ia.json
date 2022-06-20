@@ -5,7 +5,7 @@
 		]
 	},
 	"useroptionstats": "Statisticas de optiones de usator",
-	"useroptionstats-desc": "[[Special:UserOptionStats|Pagina special]] pro reportar le uso de optiones de usator in Mediawiki",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Pagina special]] pro reportar le uso de optiones de usator in MediaWiki",
 	"uos-warn": "PHPlot non es installate!",
 	"uos-choose": "Selige un del sequente optiones de usator: $1",
 	"uos-choose-hidden": "Selige un del sequente optiones celate de usator: $1",
