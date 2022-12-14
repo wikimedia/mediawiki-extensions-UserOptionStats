@@ -4,11 +4,12 @@
 			"Cainamarques",
 			"Eduardo.mps",
 			"He7d3r",
-			"Helder.wiki"
+			"Helder.wiki",
+			"Fúlvio"
 		]
 	},
 	"useroptionstats": "Estatísticas de opções de usuário",
-	"useroptionstats-desc": "[[Special:UserOptionStats|Special page]] para reportar o uso de opção de usuário do MediaWiki",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportar o uso de opção de usuário do MediaWiki",
 	"uos-warn": "PHPlot não está instalado!",
 	"uos-choose": "Escolha uma das seguintes opções de usuário: $1",
 	"uos-choose-hidden": "Escolha uma das seguintes opções de usuário ocultas: $1",
