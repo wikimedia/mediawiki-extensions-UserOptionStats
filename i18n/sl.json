@@ -4,6 +4,12 @@
 			"Eleassar"
 		]
 	},
+	"useroptionstats": "Statistika uporabniških možnosti",
 	"useroptionstats-desc": "[[Special:UserOptionStats|Posebna stran]] za poročanje o uporabi uporabniških možnosti programja MediaWiki",
-	"uos-unknown": "*Privzeto"
+	"uos-warn": "PHPlot ni nameščen!",
+	"uos-choose": "Izberite eno od naslednjih uporabniških možnosti: $1",
+	"uos-choose-hidden": "Izberite eno od naslednjih skritih uporabniških možnosti: $1",
+	"uos-unknown": "*Privzeto",
+	"uos-other": "*Drugo",
+	"uos-title": "Porazdelitev vrednosti uporabniške možnosti $1"
 }
