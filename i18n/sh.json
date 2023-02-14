@@ -6,5 +6,7 @@
 	},
 	"useroptionstats": "Statistike korisničkih opcija",
 	"useroptionstats-desc": "[[Special:UserOptionStats|Posebna stranica]] za izvještaje o korištenju MediaWiki korisničkih opcija",
-	"uos-warn": "PHPlot nije instaliran!"
+	"uos-warn": "PHPlot nije instaliran!",
+	"uos-choose": "Izaberite jednu od sljedećih korisničkih opcija: $1",
+	"uos-choose-hidden": "Izaberite jednu od sljedećih skrivenih korisničkih opcija: $1"
 }
