@@ -87,7 +87,7 @@ class FCFontFinder {
 			return false;
 		}
 
-		list( , $file, $family, $type ) = $matches;
+		[ , $file, $family, $type ] = $matches;
 		wfDebugLog( 'fcfont', "fc-match: got $file: $family $type" );
 
 		$file = wfEscapeShellArg( $file );
