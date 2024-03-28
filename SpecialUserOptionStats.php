@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\IReadableDatabase;
+
 /**
  * Special page for generating pie charts of user options
  *
@@ -9,8 +12,11 @@
  * @license GPL-2.0-or-later
  */
 class SpecialUserOptionStats extends SpecialPage {
+	private IReadableDatabase $readableDatabase;
+
 	public function __construct() {
 		parent::__construct( 'UserOptionStats' );
+		$this->readableDatabase = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 	}
 
 	public $blacklist = [ 'nickname', 'watchlisttoken' ];
@@ -56,12 +62,10 @@ class SpecialUserOptionStats extends SpecialPage {
 			return;
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
-
-		$total = $dbr->selectField( 'user', 'count(*)', '', __METHOD__ );
+		$total = $this->readableDatabase->selectField( 'user', 'count(*)', '', __METHOD__ );
 
 		$data = [];
-		$props = $dbr->select(
+		$props = $this->readableDatabase->select(
 			'user_properties',
 			[ 'up_value', 'count(up_value) as c' ],
 			[ 'up_property' => $par ],
@@ -138,8 +142,7 @@ class SpecialUserOptionStats extends SpecialPage {
 			$opts[$k] = true;
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
-		$res = $dbr->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
+		$res = $this->readableDatabase->select( 'user_properties', 'DISTINCT(up_property) as value', '', __METHOD__ );
 		foreach ( $res as $r ) {
 			$opts[$r->value] = true;
 		}
