@@ -174,12 +174,22 @@ $specialPageAliases['vi'] = [
 	'UserOptionStats' => [ 'Thống_kê_tùy_chọn_cá_nhân', 'Thống_kê_tuỳ_chọn_cá_nhân' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'UserOptionStats' => [ 'UserOptionStats' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'UserOptionStats' => [ '用户选项统计' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'UserOptionStats' => [ '使用者選項統計' ],
+];
+
+/** Chinese (Hong Kong) (中文（香港）) */
+$specialPageAliases['zh-hk'] = [
+	'UserOptionStats' => [ '用戶選項統計' ],
 ];
