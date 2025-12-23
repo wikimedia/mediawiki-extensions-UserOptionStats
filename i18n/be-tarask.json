@@ -3,6 +3,7 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
+			"Red Winged Duck",
 			"Renessaince",
 			"Wizardist",
 			"Zedlik"
@@ -13,7 +14,7 @@
 	"uos-warn": "PHPlot не ўсталяваны!",
 	"uos-choose": "Выберыце адну з наступных наладаў удзельніка: $1",
 	"uos-choose-hidden": "Выберыце адну з наступных схаваных наладаў удзельніка: $1",
-	"uos-unknown": "*Дапомна",
+	"uos-unknown": "*Перадвызначана",
 	"uos-other": "*Іншая",
 	"uos-title": "Разьмеркаваньне значэньняў наладаў удзельнікаў $1"
 }
