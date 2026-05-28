@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"useroptionstats": "کارن خوښنې شمارنې",
+	"useroptionstats-desc": "د مېډياويکي کارن خوښنې کارولو په اړه د راپور ورکولو [[Special:UserOptionStats|ځانگړی مخ]]",
+	"uos-warn": "پي‌اېچ‌پي‌لوټ لگېدلی نه دی!",
+	"uos-choose": "د لاندې کارن خوښنو نه يوه غوره کړئ: $1",
+	"uos-choose-hidden": "د لاندې پټو شويو کارن خوښنو نه يوه غوره کړئ: $1",
 	"uos-unknown": "*تلواليز",
-	"uos-other": "*بل"
+	"uos-other": "*بل",
+	"uos-title": "د کارن خوښنو د ارزښتونو وېش $1"
 }
