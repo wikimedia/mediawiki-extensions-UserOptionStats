@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"useroptionstats": "Tirakoobka ikhtiyaarrada isticmaalaha",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Bog gaar ah]] oo loogu talagalay soo-sheegidda adeegsiga ikhtiyaarrada isticmaalaha ee MediaWiki",
+	"uos-warn": "PHPlot lama rakibin!",
+	"uos-choose": "Dooro mid ka mid ah ikhtiyaarrada isticmaalaha ee soo socda: $1",
+	"uos-choose-hidden": "Dooro mid ka mid ah ikhtiyaarrada isticmaalaha ee qarsoon ee soo socda: $1",
+	"uos-unknown": "*Caadi",
+	"uos-other": "*Kale",
+	"uos-title": "Qaybinta qiimayaasha ikhtiyaarka isticmaalaha $1"
+}
